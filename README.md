@@ -15,6 +15,6 @@ enter admin as user name and nimda as a password - you should see auth code now 
 
 then do following to get access token
 ```
-curl -u 'fooClientIdPassword:secret' http://joblauncher.dev:8888/v1/oauth/token \
+curl -u 'fooClientIdPassword:secret' http://localhost:8888/v1/oauth/token \
      -d 'client_id=fooClientIdPassword&client_secret=secret&grant_type=authorization_code&redirect_uri=http://localhost:8888/v1/login&code=ap9F3I'
 ```
